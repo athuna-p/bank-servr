@@ -1,0 +1,53 @@
+      node server/back end technology
+
+      basic commands
+      --------------------
+
+      1.create package.json=>npm init
+      2.install express npm i express
+      install jwt token- npm i json
+    
+      basic steps
+      -------------------
+      1.create package json
+
+      2.install express
+
+      3.create index.js file
+
+      4.import express
+
+      5.server app creation using express
+
+      6.setup port number for express
+
+      7.client http req resolving
+        syntax:server-app.http-request(pat,callback)
+
+      8.response status cose
+      
+       1xx=> information
+       2xx=> success
+       3xx=> redirection
+       4xx=> client side error
+       5xx=> server side error
+      
+      9.jwt token-uer validation
+       
+        9.1 token generation -sign() to generate
+        9.2 token verify -verify()
+
+      10.middleware -
+       10.1 application specific=>entair application
+       10.2 router specific=>only want some api
+
+      11.mong0 db connection
+       11.1 install mongoose
+       11.2 create db.js file
+       11.3 import mongoose in db.js
+       11.4 state connection string using mongoose
+       11.5 create model or collection
+       11.6 export model
+
+      12.asynchronou function resolving-promise
+       12.1 resolved state 
